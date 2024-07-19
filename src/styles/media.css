@@ -1,0 +1,34 @@
+/* MediaWeb.css */
+.phoneFrame {
+    position: relative; /* Para posicionar correctamente la imagen dentro del marco */
+    width: 1000px; /* Ancho del marco del celular */
+    height: 600px; /* Alto del marco del celular */
+    border: 20px solid #000000; /* Borde del marco (color negro) */
+    border-radius: 18px; /* Bordes redondeados del marco */
+    margin: 20px auto; /* Margen para centrar el celular horizontalmente */
+    background: #000; /* Fondo negro del marco */
+    overflow: hidden; /* Para que la imagen no se salga del marco */
+  }
+  
+  .phoneImage {
+    position: absolute; /* Posicionamiento absoluto dentro del marco */
+    top: 50%; /* Alineación vertical */
+    left: 50%; /* Alineación horizontal */
+    transform: translate(-50%, -50%); /* Centrar la imagen dentro del marco */
+    width: auto; /* Ancho de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+  }
+ .espacio {
+    height: 100px;
+ }
+
+ @media (max-width: 768px) {
+    .phoneFrame {
+      width: 90%; /* Reducir el ancho del marco del celular en pantallas más pequeñas */
+      height: 350px; /* Alto del marco del celular */
+      margin: 1px auto; /* Margen para centrar el celular horizontalmente */
+    }
+    .phoneImage {
+        width: 90%;
+    }
+}

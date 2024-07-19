@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+  
+  .main-content {
+    flex: 1;
+    /* Puedes añadir más estilos según necesites para el contenido principal */
+  }
+  
+  .footer {
+    background-color: #1a1c1f;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+    width: 100%;
+    
+  }
+  
+  .footer-info {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tFooter {
+    margin: 0;
+    text-align: center;
+    font-size: 12.5px;
+    line-height: 1.5;
+    padding: 1px;
+    color: #fff;
+  }
+  
+  .footer a {
+    text-decoration: none; /* Elimina la línea subrayada predeterminada */
+    color: #fff; /* Color de texto para los enlaces */
+   
+    transition: color 0.3s; /* Transición suave para el cambio de color al pasar el ratón */
+  }
+  
+@media (max-width: 768px) {
+
+}
+
+  

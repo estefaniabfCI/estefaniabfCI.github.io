@@ -1,0 +1,12 @@
+
+  .r-sociales {
+    width: 50px; /* Ancho deseado de las imágenes */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin-top: 30px; /* Margen derecho entre las imágenes */
+
+  }
+  .prensa{
+    width: 400px; /* Ancho deseado de las imágenes */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin-top: 20px; /* Margen derecho entre las imágenes */
+  }

@@ -1,0 +1,29 @@
+
+.rowRev {
+    display: flex; /* Usa flexbox para alinear los elementos en una fila */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Alinea los elementos verticalmente (opcional) */
+    margin: 40px;
+  }
+  
+  .container-rev {
+    flex: 0.5; /* Distribuye el espacio disponible de manera uniforme entre los contenedores */
+    margin: 5px; /* Ajusta el margen entre los contenedores (puedes cambiar este valor según tu diseño) */
+    max-width: 100%
+  }
+  
+  .revista-img {
+    max-width: 60%; /* Ajusta el tamaño máximo de las imágenes */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+    border-radius: 5px; /* Opcional: añade bordes redondeados a las imágenes */
+  }
+  .espacioRev {
+    height: 100px;
+ }
+  @media (max-width: 768px) {
+    .revista-img {
+      max-width: 100%; /* Reduce más el tamaño para dispositivos pequeños si es necesario */
+  
+    }
+  }
+  

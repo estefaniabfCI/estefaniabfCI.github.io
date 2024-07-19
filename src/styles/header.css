@@ -1,0 +1,24 @@
+.custom-navbar {
+    background-color: #95D3CD; /* Color de fondo del Navbar */
+    margin-block-end: 50px;
+    
+    /* Otros estilos personalizados según tu diseño */
+  }
+ 
+  .fontLinkHeader {
+    color: white !important; /* Color del texto de los enlaces */
+    font-weight: 500 !important; /* Peso de la fuente */
+    font-size: 1200 !important;
+  }
+  
+  .nav-link {
+    color: white !important; /* Color del texto de los enlaces */
+    margin-right: 15px; /* Espacio entre los enlaces */
+  }
+  
+  .nav-link:hover {
+    color: #32a58c !important; /* Color del texto al hacer hover */
+  }
+  
+  /* Estilos adicionales según tu necesidad */
+  

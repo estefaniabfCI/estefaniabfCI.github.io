@@ -1,0 +1,42 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px; /* Margen reducido para dispositivos más pequeños */
+    width: calc(100% - 20px); /* Ancho del 100% menos el margen */
+    max-width: 300px; /* Ancho máximo para tarjetas más grandes */
+    margin-right: 20px; /* Espacio entre tarjetas */
+    flex: 1 0 250px; /* Hace que las tarjetas crezcan y ocupen el espacio disponible */
+    box-sizing: border-box; /* Incluye el borde en el cálculo del tamaño total */
+}
+
+.card-container {
+    white-space: nowrap; /* Evita el salto de línea de las tarjetas */
+    padding: 20px 10px; /* Espacio alrededor del contenedor de tarjetas */
+    display: flex; /* Muestra las tarjetas en línea */
+    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan cuando no caben */
+    justify-content: space-around; /* Distribuye las tarjetas de manera uniforme */
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1rem; /* Tamaño de fuente más pequeño para títulos */
+    margin-bottom: 2px;
+}
+
+
+@media (max-width: 576px) {
+    .card {
+        max-width: 70%; /* Ancho completo en pantallas más pequeñas */
+        margin: 10px 0; /* Margen reducido y centrado verticalmente */
+        flex: 1 0 100%; /* Hace que las tarjetas ocupen el ancho completo */
+    }
+}

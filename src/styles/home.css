@@ -1,0 +1,30 @@
+.divHome {
+  text-align: center;
+  overflow-x: hidden; /* Evita desplazamiento horizontal en el nivel principal */
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  max-width: 100%; /* Ajusta el ancho máximo del contenedor */
+  overflow: hidden; /* Evita desbordamientos de contenido */
+}
+
+.responsive-img {
+  max-width: 30%; /* Ajusta el tamaño máximo de la imagen */
+  height: auto;
+  border-radius: 10px;
+  display: block; /* Asegura que la imagen se comporte como bloque */
+}
+
+@media (max-width: 768px) {
+  .responsive-img {
+    max-width: 80%; /* Reduce más el tamaño para dispositivos pequeños si es necesario */
+    margin: 20px 0; /* Ajusta el margen para dispositivos más pequeños */
+  }
+}

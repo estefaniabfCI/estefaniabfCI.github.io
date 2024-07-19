@@ -1,0 +1,13 @@
+.tituloSCI{
+    margin: 50px;
+    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan cuando no caben */
+    max-width: 100%; /* Ajusta el ancho máximo del contenedor */
+}
+
+.texSCI{
+    max-width: 100%; /* Ajusta el ancho máximo del contenedor */
+    margin: 100px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}

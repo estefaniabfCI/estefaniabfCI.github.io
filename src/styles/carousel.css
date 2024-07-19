@@ -1,0 +1,22 @@
+/* Estilos generales para el carrusel */
+.carousel {
+    max-width: 100%; /* Ajusta el ancho máximo del carrusel */
+    margin: 0 auto; /* Centra horizontalmente el carrusel */
+}
+
+.carousel-item {
+    height: 500px; /* Altura de cada slide del carrusel */
+}
+
+.carousel-item img {
+    object-fit: cover; /* Ajusta el tamaño de la imagen para que cubra completamente el contenedor */
+    height: 100%; /* Altura de la imagen */
+    width: 100%; /* Ancho máximo de la imagen */
+}
+
+/* Media query para ocultar el carrusel en dispositivos con ancho menor a 768px (ajusta según necesites) */
+@media (max-width: 768px) {
+    .carousel {
+        display: none; /* Oculta completamente el carrusel */
+    }
+}
